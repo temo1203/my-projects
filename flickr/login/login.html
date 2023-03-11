@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="login-header-div-1">
+        <img src="../home/home photos/flickr-1.svg" />
+        <h1>flickr</h1>
+      </div>
+    </header>
+    <div class="image-div">
+      <img
+        class="image-div-img-1"
+        src="./login-photos/033120190455-by-Henry.26d9f56a.jpg"
+        alt="login-photos"
+      />
+      <div class="just-1">
+        <div class="image-div-login">
+          <img
+            class="image-div-login-1"
+            src="../home/home photos/flickr-1.svg"
+            alt="flickr"
+          />
+          <h1 class="image-div-login-h1">Log in to Flickr</h1>
+          <input
+            oninput="something.name(event)"
+            id="input-1"
+            required=""
+            type="text-1"
+          />
+          <label id="label_1" alt="Email" placeholder="Email address"></label>
+          <input
+            oninput="something.password(event)"
+            class="disabled"
+            id="input_2"
+            required=""
+            type="text-1"
+          />
+          <label
+            id="label_2"
+            class="disabled"
+            alt="Email"
+            placeholder="password"
+          ></label>
+          <button id="but-1" onclick="something.button()">Next</button>
+          <a class="password_1" href="">Forgot password?</a>
+          <div class="lite-1">
+            <h1>Not a Flickr member?</h1>
+            <a href=""> Sign up here</a>
+          </div>
+        </div>
+        <div class="last_div_1">
+          <p onclick="tog()">
+            English <ion-icon name="chevron-down-outline"></ion-icon>
+          </p>
+          <div>
+            <a href="">Help</a>
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+          </div>
+        </div>
+        <div id="select_div_id_1" class="select_div_1">
+          <p>English</p>
+          <p>Indonesian</p>
+          <p>Chinese</p>
+          <p>Georgian</p>
+          <p>Russian</p>
+          <p>italiano</p>
+          <p>Portugues</p>
+          <p>Espanol</p>
+          <p>Deutsch</p>
+          <p>German</p>
+        </div>
+      </div>
+    </div>
+    <script src="./login.js"></script>
+  </body>
+</html>

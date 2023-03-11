@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200;300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+input:focus {
+  outline: none;
+  border: specify yours;
+}
+button {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 939px;
+}
+/* header */
+.login-header-div-1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: #212124;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 175px;
+  position: absolute;
+  z-index: 1;
+  width: 1979px;
+}
+.login-header-div-1 img {
+  width: 22px;
+}
+.login-header-div-1 h1 {
+  color: white;
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.4px;
+}
+.lite-1 {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+.image-div .image-div-img-1 {
+  width: 100%;
+  box-sizing: border-box;
+  height: 955px;
+}
+/* header end */
+.image-div-login {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background: white;
+  row-gap: 16px;
+  padding: 24px;
+  border-radius: 0.25rem;
+}
+.image-div-login-1 {
+  width: 33px;
+  align-self: center;
+}
+.image-div-login button {
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  background-color: #128fdc;
+  border-radius: 0.25rem;
+  border: none;
+  color: white;
+}
+.image-div-login input {
+  width: 300px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  height: 55px;
+  border-radius: 0.25rem;
+  border: 1px solid #898989;
+  border-image: initial;
+  color: #898989;
+}
+.image-div-login-h1 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.lite-1 h1,
+a {
+  font-weight: 400;
+  font-size: 15px;
+}
+.lite-1 a {
+  color: #128fdc;
+}
+.just-1 {
+  position: absolute;
+  top: 306px;
+  left: 41%;
+}
+/*  */
+input[type="text-1"] {
+  box-sizing: border-box;
+  width: 300px;
+  height: 55px;
+  padding: 1em 1em 1em 1em;
+  border: 1px solid #ccc;
+  background: #fff;
+  resize: none;
+  outline: none;
+  border-radius: 0.25rem;
+}
+
+input[type="text-1"][required]:focus {
+  border-color: #00bafa;
+}
+input[type="text-1"][required]:focus + label[placeholder]:before {
+  color: #00bafa;
+}
+input[type="text-1"][required]:focus + label[placeholder]:before,
+input[type="text-1"][required]:valid + label[placeholder]:before {
+  transition-duration: 0.2s;
+  transform: translate(0, -1.5em) scale(0.85, 0.85);
+}
+
+input[type="text-1"][required] + label[placeholder] {
+  pointer-events: none;
+  line-height: 1em;
+  margin-top: calc(-3em - 2px);
+  margin-bottom: calc((3em - 1em) + 2px);
+}
+
+input[type="text-1"][required] + label[placeholder]:before {
+  content: attr(placeholder);
+  display: inline-block;
+  margin: 0 calc(0.5em + 2px);
+  padding: 0 1px;
+  color: #898989;
+  white-space: nowrap;
+  transition: 0.3s ease-in-out;
+  background-image: linear-gradient(to bottom, #fff, #fff);
+}
+
+/*  */
+.disabled {
+  display: none;
+}
+.password_1 {
+  text-align: center;
+  font-size: 14px;
+  color: #128fdc;
+}
+.last_div_1 {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  color: white;
+}
+.last_div_1 a {
+  color: white;
+}
+.last_div_1 p {
+  cursor: pointer;
+}
+.last_div_1 div {
+  display: flex;
+  gap: 22px;
+}
+.select_div_1 {
+  width: 99px;
+  display: none;
+  flex-direction: column;
+  font-size: 16px;
+  background: white;
+  border-radius: 0.25rem;
+  text-align: center;
+  box-shadow: 5px 10px 18px gray;
+  position: absolute;
+  top: -55px;
+  left: -7px;
+}
+.select_div_1 p {
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.select_div_1 p:hover {
+  background-color: #898989;
+  transition: 0.5s;
+}
+.toggle_1 {
+  display: flex;
+  transition: 0.1s;
+}

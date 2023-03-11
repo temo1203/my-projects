@@ -1,0 +1,33 @@
+.logo-1 h1 {
+  color: #f57325;
+  font-family: "Anek Devanagari";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.logo-1 span {
+  color: white;
+}
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 117px 0px 117px;
+}
+.nav-1 {
+  color: white;
+  display: flex;
+  gap: 75px;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+a[href$="./about.html"] {
+  color: #f57325;
+}

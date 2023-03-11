@@ -1,0 +1,53 @@
+.footer-div-1 h1 {
+  color: #f57325;
+  font-family: "Anek Devanagari";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+}
+.footer-div-1 span {
+  color: white;
+}
+footer {
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+  padding: 36px 119px 54px 119px;
+  background: black;
+}
+.footer-div-2 {
+  display: flex;
+  gap: 113px;
+  justify-content: center;
+}
+.footer-div-2 h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+}
+.footer-div-1 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+}
+.footer-nav-images {
+  display: flex;
+  gap: 34.4px;
+  margin-top: 64px;
+}
+.footer-div-2 p,
+.footer-div-2 h1 {
+  color: white;
+}
+.footer-div-2 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 20px;
+}

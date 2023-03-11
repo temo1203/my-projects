@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200;300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+input:focus {
+  outline: none;
+  border: specify yours;
+}
+button {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: rgba(21, 21, 23, 0.95);
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+header div:first-child,
+header div:nth-child(2) {
+  display: flex;
+  padding: 7px;
+  align-items: center;
+}
+header div:first-child :nth-child(1) {
+  color: white;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1px;
+  gap: 10px;
+}
+.header_div_1 {
+  gap: 25px;
+}
+header div:first-child :nth-child(3),
+header div:first-child :nth-child(4),
+header div:first-child :nth-child(5) {
+  display: inline-block;
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  transition: opacity 150ms ease-in-out;
+}
+header div:first-child :nth-child(3):hover,
+header div:first-child :nth-child(4):hover,
+header div:first-child :nth-child(5):hover {
+  opacity: 0.7;
+}
+header div:first-child button {
+  height: 32px;
+  text-align: center;
+  min-width: 96px;
+  padding: 0 20px;
+  background-color: #128fdc;
+  color: #fff;
+  border-radius: 3px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  display: inline-block;
+}
+header div:first-child img {
+  width: 26px;
+}
+.header_div_2 {
+  gap: 20px;
+}
+.header_div_2 a {
+  display: inline-block;
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  transition: opacity 150ms ease-in-out;
+}
+.header_div_2 a:hover {
+  opacity: 0.7;
+}
+.header_div_2 ion-icon {
+  width: 33px;
+  height: 2em;
+  color: white;
+}
+.header_div_2 img {
+  width: 30px;
+  position: absolute;
+  right: 586px;
+}
+.header_div_2 input {
+  display: inline-block;
+  height: 33px;
+  width: 220px;
+  margin: 0;
+  padding: 0 5px 0 38px;
+  border: 0 solid #ccc;
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+  line-height: 33px\9;
+  outline: 0;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: background-color 250ms ease-in-out, width 250ms ease-in-out,
+    left 250ms ease-in-out;
+}
+.p_div ul:first-child li {
+  text-decoration: none;
+  color: #0063dc;
+  font-size: 15.18px;
+  line-height: 30.35px;
+  padding: 3px 0;
+  border-bottom: 1px solid #dbdbdb;
+}
+.p_div ul {
+  width: 200px;
+  list-style-type: none;
+}
+.p_div {
+  width: 200px;
+  height: 350px;
+  margin-top: 14px;
+  padding-right: 20px;
+  border-right: 1px solid #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 464px;
+}
+.p_div img {
+  margin-top: 25px;
+}
+.p_div a:nth-child(3) {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+}
+.p_div :nth-child(5) {
+  font-weight: 300;
+}
+.p_div :nth-child(6) {
+  display: block;
+  margin-top: 5px;
+  font-weight: 300;
+}
+.p_div p {
+  margin-top: 5px;
+  line-height: 45px;
+}
+.li_1:hover li {
+  border-top: 2px solid #0063dc;
+}
+.li_1:hover {
+  cursor: pointer;
+}
+.li_1 img {
+  width: 33px;
+}
+.li_1 li {
+  border-top: 2px solid white;
+}
+.main_blog_div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+.blog_div {
+  width: 1160.5px;
+}
+.first_h1 {
+  font-size: 24px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #ff0084;
+  font-weight: 400;
+}
+.second_h1 {
+  margin: 16px 0 10px;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+}
+.third_h1 {
+  font-size: 20px;
+  line-height: 25px;
+  color: #ff0084;
+}
+.span_1 {
+  color: #ff0084;
+  margin-right: 10px;
+}
+.para_1 {
+  line-height: 22px;
+  margin-left: 35px;
+}
+.para_2 {
+  font-size: 12px;
+  line-height: 18px;
+  color: #000;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 35px;
+}
+.para_3 {
+  font-size: 12px;
+  line-height: 18px;
+  color: #000;
+  margin-bottom: 15px;
+}
+.li_div_1 {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 750.5px;
+  row-gap: 15px;
+}
+.li_div_1 ul {
+  width: 75px;
+  height: 75px;
+  list-style-type: none;
+}
+.li_div_1 img {
+  width: 75px;
+  height: 75px;
+  box-sizing: border-box;
+}
+.li_div_1 li {
+  width: 75px;
+  cursor: pointer;
+}
+.ul_hover_div {
+  color: black;
+  width: 75px;
+  height: 5px;
+}
+/* footer */
+.second_footer_things {
+  background: #212124;
+  font-size: 14px;
+  text-align: center;
+  box-sizing: border-box;
+  height: 109px;
+  margin-top: 100px;
+}
+.second_footer_things .second_footer_things_2 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.second_footer_things_2 p {
+  display: inline-block;
+  padding: 2px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.second_footer_things_2 p:hover {
+  opacity: 0.6;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+}
+.second_footer_things .second_footer_things_3 {
+  display: flex;
+  height: 43px;
+  border-top: 1px solid #38383a;
+  padding-top: 10px;
+  width: 1175px;
+  position: relative;
+  left: 361px;
+  justify-content: space-between;
+}
+.second_footer_things div:nth-child(2) div:first-child p:hover {
+  transition: all 150ms ease-in-out;
+  color: #fff;
+}
+.second_footer_things div:nth-child(2) div:first-child {
+  display: flex;
+  gap: 25px;
+}
+.second_footer_things div:nth-child(2) div:first-child p {
+  padding: 2px;
+  font-size: 14px;
+  color: #898989;
+  font-weight: normal;
+  cursor: pointer;
+}
+.second_footer_things div:nth-child(2) div:nth-child(2) {
+  display: flex;
+  color: #898989;
+  font-weight: normal;
+}
+.second_footer_things div:nth-child(2) div:nth-child(2) ion-icon {
+  width: 41px;
+  height: 24px;
+  cursor: pointer;
+}
+.second_footer_things div:nth-child(2) div:nth-child(2) ion-icon:hover {
+  transition: all 150ms ease-in-out;
+  color: #fff;
+}
+/* footer end */

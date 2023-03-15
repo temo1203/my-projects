@@ -6,6 +6,9 @@
   font-family: family_1_Lite;
   src: url(../Helvetica-Font/helvetica-light-587ebe5a59211.ttf);
 }
+button {
+  cursor: pointer;
+}
 * {
   padding: 0;
   margin: 0;
@@ -106,6 +109,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin-top: 135px;
 }
 .georgian ion-icon {
   color: white;
@@ -125,14 +129,6 @@ header {
 .georgian p {
   font-size: 20px;
   margin-top: 24px;
-}
-.georgian button {
-  border: 1px solid #000000;
-  border-radius: 32px;
-  width: 200px;
-  height: 45px;
-  margin-top: 19px;
-  font-size: 18px;
 }
 .georgian {
   box-sizing: border-box;
@@ -162,14 +158,6 @@ header {
   top: 50px;
   left: 65px;
 }
-.math button {
-  border: 1px solid #000000;
-  border-radius: 32px;
-  width: 200px;
-  height: 45px;
-  margin-top: 19px;
-  font-size: 18px;
-}
 .math div {
   background: #d4c4fc;
   border-radius: 20px 20px 0px 0px;
@@ -196,14 +184,6 @@ header {
   top: 50px;
   left: 134px;
   position: absolute;
-}
-.english button {
-  border: 1px solid #000000;
-  border-radius: 32px;
-  width: 200px;
-  height: 45px;
-  margin-top: 19px;
-  font-size: 18px;
 }
 .english div {
   background: #fff0b5;
@@ -234,14 +214,6 @@ header {
   left: 65px;
   color: cadetblue;
 }
-.history button {
-  border: 1px solid #000000;
-  border-radius: 32px;
-  width: 200px;
-  height: 45px;
-  margin-top: 19px;
-  font-size: 18px;
-}
 .history div {
   background: #1e4755;
   border-radius: 20px 20px 0px 0px;
@@ -267,14 +239,6 @@ header {
 .georgian_2 p {
   font-size: 20px;
   margin-top: 24px;
-}
-.georgian_2 button {
-  border: 1px solid #000000;
-  border-radius: 32px;
-  width: 200px;
-  height: 45px;
-  margin-top: 19px;
-  font-size: 18px;
 }
 .georgian_2 {
   box-sizing: border-box;
@@ -304,13 +268,15 @@ header {
   font-size: 20px;
   margin-top: 24px;
 }
-.computer button {
+.main_div_2_lite button {
   border: 1px solid #000000;
   border-radius: 32px;
   width: 200px;
   height: 45px;
   margin-top: 19px;
   font-size: 18px;
+  background-color: white;
+  cursor: pointer;
 }
 .computer {
   box-sizing: border-box;
@@ -330,6 +296,9 @@ header {
 .main_div_3 {
   position: relative;
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .main_div_3 div:nth-child(2) {
   padding-bottom: 95px;
@@ -338,8 +307,6 @@ header {
 .main_div_3 .square_div_1 {
   border: 1px solid #6b6b6b;
   width: 1222px;
-  position: absolute;
-  left: 17%;
 }
 .main_div_3 h1 {
   color: #323232;
@@ -362,6 +329,8 @@ footer {
   display: grid;
   grid-template-columns: auto auto auto;
   margin-top: 67px;
+  margin-bottom: 40px;
+  align-items: center;
 }
 footer div:first-child {
   display: flex;

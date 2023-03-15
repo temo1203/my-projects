@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1110px) {
+  .main_div_1 {
+    flex-direction: column;
+  }
+  .main_div_1 img {
+    margin-top: 100px;
+  }
+  .lite_div_h1 {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .lite_div_2 {
+    flex-direction: column;
+    height: 800px;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .main_div_3 {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 790px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    gap: 0px;
+    row-gap: 40px;
+  }
+  .main_div_1 img {
+    width: 480px;
+    height: 400px;
+  }
+  .lite_div_3 input {
+    width: 336px;
+  }
+}

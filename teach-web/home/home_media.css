@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1550px) {
+  .main_div_2_lite {
+    padding-left: 118px;
+  }
+}
+@media only screen and (max-width: 1240px) {
+  .main_div_2_lite {
+    padding-left: 40px;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .header_div_1 {
+    margin-left: 70px;
+  }
+  .main_div_2_lite {
+    padding-left: 125px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .main_div_3 .square_div_1 {
+    width: 980px;
+  }
+}

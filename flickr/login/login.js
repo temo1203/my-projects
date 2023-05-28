@@ -39,7 +39,7 @@ function tog() {
   choose_1.classList.toggle("toggle_1");
 }
 var button_1 = document.getElementById("but-1");
-var inp = (document.getElementById("input-1").onkeypress = function (event) {
+var inp = (document.getElementById("input_2").onkeypress = function (event) {
   if (event.keyCode == 13 || event.which == 13) {
     something.button();
   }

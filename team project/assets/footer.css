@@ -1,0 +1,30 @@
+.footer_lite a {
+  font-size: 1.5rem;
+  padding: 0 1em;
+  transition: all 0.2s linear;
+  color: #f2e6b1;
+}
+.footer_lite a:hover {
+  color: #9a99ff;
+  transition: all 0.2s linear;
+}
+.footer_lite a:first-child {
+  color: #00ffff;
+}
+.footer_div {
+  padding: 20px 4%;
+}
+.footer_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_div p {
+  color: #ffff;
+  font-size: 25px;
+  width: 7%;
+  text-align: center;
+}
+.footer_div p span {
+  color: #9a99ff;
+}

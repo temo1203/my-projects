@@ -1,0 +1,39 @@
+ol,
+ul {
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "VT323", monospace;
+}
+*:focus {
+  outline: none;
+}

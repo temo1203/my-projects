@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+header p {
+  font-family: "VT323", monospace;
+}
+header {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+header div {
+  height: 9.8vh;
+  display: flex;
+  display: flex;
+  justify-content: end;
+  padding-top: 1%;
+  align-items: center;
+}
+header p {
+  font-size: 1.5rem;
+  padding: 0 1em;
+  transition: all 0.2s linear;
+  color: #f2e6b1;
+}
+header p:hover {
+  color: #9a99ff;
+  transition: all 0.2s linear;
+}
+header div a:first-child p {
+  color: #00ffff;
+}

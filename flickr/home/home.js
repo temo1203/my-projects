@@ -48,3 +48,4 @@ function slider() {
   console.log(start);
 }
 setInterval(slider, 6000);
+console.log("gogitas didi yle udevs");

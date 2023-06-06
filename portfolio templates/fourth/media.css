@@ -1,0 +1,130 @@
+@media (max-width: 1350px) {
+  .container {
+    max-width: 1150px;
+    padding: 0px 25px;
+  }
+  .first_div {
+    width: 500px;
+  }
+  .first_div h1 {
+    font-size: 2.5rem;
+  }
+  .first_div p {
+    font-size: 1.2rem;
+  }
+  .checked_div_1 div img,
+  .checked_div_2 div img,
+  .checked_div_3 div img {
+    width: 300px;
+  }
+  .info_div img {
+    width: 300px;
+  }
+  .info_div p {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 1100px) {
+  .container {
+    max-width: 950px;
+    padding: 0px 15px;
+  }
+  .checked_div_1,
+  .checked_div_2,
+  .checked_div_3 {
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+  .first_div {
+    width: 400px;
+  }
+  .first_div h1 {
+    font-size: 2rem;
+  }
+  .first_div p {
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .second_lite ul {
+    justify-content: center;
+  }
+  .checked_div_1 div img,
+  .checked_div_2 div img,
+  .checked_div_3 div img {
+    width: 250px;
+  }
+  .info_div img {
+    width: 100%;
+  }
+  .info_div h5 {
+    font-size: 0.9rem;
+  }
+  .info_div p {
+    font-size: 1rem;
+  }
+  .footer_div {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    place-items: center;
+  }
+}
+@media (max-width: 800px) {
+  .first {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  header nav ul:first-child {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #d9dddc;
+    top: -20px;
+    height: 1300px;
+    width: 450px;
+    z-index: 2;
+    padding-top: 200px;
+    padding-right: 200px;
+    padding-left: 50px;
+  }
+  .second_div {
+    width: 400px;
+  }
+  .info_div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .info_div img {
+    width: 80%;
+  }
+  header nav ul:first-child {
+    display: none;
+  }
+  header nav ion-icon {
+    display: flex;
+    width: 50px;
+    height: 40px;
+    background-color: #d9dddc;
+    border: 1px solid burlywood;
+  }
+  .checked_div_1,
+  .checked_div_2,
+  .checked_div_3 {
+    grid-template-columns: 1fr;
+  }
+  .checked_div_1 div img,
+  .checked_div_2 div img,
+  .checked_div_3 div img {
+    width: 450px;
+  }
+}
+@media (max-width: 500px) {
+  .checked_div_1 div img,
+  .checked_div_2 div img,
+  .checked_div_3 div img {
+    width: 100%;
+  }
+}

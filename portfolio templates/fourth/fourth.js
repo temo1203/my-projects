@@ -1,3 +1,4 @@
+AOS.init();
 $(document).ready(function () {
   $("#commerce").click(function () {
     toggleClass("checked_div_1");

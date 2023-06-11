@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="fixed-header">
+      <h1>My Fixed Header</h1>
+    </header>
+    <div class="div-things">
+      <div>div1</div>
+      <div>div2</div>
+      <div>div3</div>
+      <div>div4</div>
+      <div>div5</div>
+      <div>div6</div>
+      <div>div7</div>
+      <div>div8</div>
+      <div>div9</div>
+    </div>
+    <div class="div_1">hello</div>
+    <h1>Using AOS to Add Animations</h1>
+    <h2>Basic Animation</h2>
+    <p>You need to scroll down to see the effect.</p>
+    <div
+      class="box a"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="1000"
+      data-aos="fade-down"
+    >
+      <h2>Animated using <code>fade-up</code>.</h2>
+    </div>
+    <div class="box b" data-aos="flip-down">
+      <h2>Animated using <code>flip-down</code>.</h2>
+    </div>
+    <div class="box b" data-aos="zoom-in">
+      <h2>Animated using <code>zoom-in</code>.</h2>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

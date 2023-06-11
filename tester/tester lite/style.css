@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  font-size: 1.2em;
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: center;
+}
+
+.box {
+  width: 40%;
+  height: 200px;
+  background: orange;
+  border-radius: 2px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+/* .div_1 {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 10%;
+  background-color: green;
+  transition: 0.5s linear;
+} */
+.div-things {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+}
+.div-things div {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transition: 0.5s linear;
+}
+.div-things div:hover {
+  top: 10%;
+  transition: 0.5s linear;
+}
+.div_1:hover {
+  top: 3%;
+  transition: 0.5s linear;
+}
+.a {
+  margin: 120vh auto 0 auto;
+}
+
+.b {
+  margin: 40vh auto 0 auto;
+}
+.sticky {
+  background-color: aquamarine;
+}
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 10px;
+}

@@ -1,0 +1,134 @@
+.img_lite {
+  width: 100%;
+}
+.service_section h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+  color: #274c5b;
+  margin-bottom: 30px;
+}
+.service_section > img:first-child {
+  width: 100%;
+  margin-top: 120px;
+}
+.service_section p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 165.4%;
+  color: #525c60;
+}
+.lite_container {
+  padding: 0px 200px;
+  margin-top: 80px;
+}
+.tl_lite_div_1,
+.tl_lite_div_2 {
+  display: flex;
+  gap: 15px;
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+.tl_lite_div_1 img,
+.tl_lite_div_2 img {
+  border-radius: 20px;
+}
+.tl_lite_div_1 div,
+.tl_lite_div_2 div {
+  background: #f9f8f8;
+  border-radius: 20px;
+  padding: 63px 45px;
+}
+.tl_lite_div_1 h3,
+.tl_lite_div_2 h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #274c5b;
+}
+.tl_lite_div_1 h5,
+.tl_lite_div_2 h5 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 165.4%;
+  color: #525c60;
+}
+.tl_quality h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 50px;
+  background: #7eb693;
+}
+.tl_quality {
+  display: flex;
+  align-items: center;
+  width: 390px;
+  height: 99px;
+  background: #f9f8f8;
+  border-radius: 100px;
+  padding-left: 17px;
+  gap: 20px;
+}
+.tl_quality h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #274c5b;
+}
+.tl_quality_pro {
+  display: flex;
+  gap: 30px;
+  margin-top: 59px;
+}
+.tl_quality_pro > .tl_quality:first-child {
+  width: 38%;
+}
+.tl_quality_pro > .tl_quality:nth-child(2) {
+  width: 40.6%;
+}
+.tl_section_div_2 {
+  background-image: url(./service_photos/Backgroundmixed.png);
+  width: 100%;
+  height: 323px;
+  background-repeat: no-repeat;
+}
+.tl_section_div_2 h1 {
+  width: 357px;
+  height: 113px;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+
+  color: #ffffff;
+}
+.tl_section_div_2 input {
+  width: 349px;
+  height: 80px;
+  border-radius: 15px;
+  padding-left: 23px;
+  border-radius: 16px;
+}
+.tl_section_div_2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 76px;
+  margin-top: 140px;
+}
+.tl_section_div_2 button {
+  height: 80px;
+  color: #ffffff;
+  padding: 28.5px 65px;
+  background: #274c5b;
+  border-radius: 16px;
+  font-size: 1rem;
+}

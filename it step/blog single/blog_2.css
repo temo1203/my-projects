@@ -1,0 +1,111 @@
+.img_lite {
+  width: 100%;
+}
+.tl_div_lite div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.tl_div_lite h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #274c5b;
+}
+.tl_div p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 165.4%;
+  color: #525c60;
+  width: 726px;
+}
+.tl_div_lite h5 span {
+  font-weight: 300;
+}
+.tl_div_lite {
+  padding: 76px 84px;
+  margin-top: -200px;
+  background: white;
+  box-shadow: 0px 14px 36px rgba(204, 204, 204, 0.25);
+  border-radius: 30px;
+  position: relative;
+}
+.tl_div_lite h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #274c5b;
+}
+.tl_div_lite h6 ion-icon {
+  color: #7eb693;
+}
+.tl_div_lite h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 82px;
+  margin: 20px 0px;
+  color: #274c5b;
+}
+.container_lite {
+  margin-top: 80px;
+  padding: 0px 200px;
+}
+.container_lite p:first-child {
+  width: 936px;
+}
+.container_lite h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+  color: #274c5b;
+  margin: 24px 0px;
+}
+.container_lite p:nth-child(2) {
+  width: 936px;
+  margin-bottom: 30px;
+}
+.container_lite ul {
+  list-style: disc;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 165.4%;
+  color: #525c60;
+}
+.container_lite p:nth-child(3) {
+  margin-top: 24px;
+  margin-bottom: 30px;
+  width: 721px;
+}
+.lite-para {
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+.container_lite h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 41px;
+  color: #274c5b;
+}
+.tl_div_lite_2 {
+  width: 814px;
+  padding: 64px 59px;
+  background: #f1edea;
+  border-radius: 30px;
+  margin: 50px 0px;
+}
+.tl_div_lite_2 h4 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 165.4%;
+  text-align: center;
+  color: #274c5b;
+}

@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1550px) {
+  header .container {
+    padding: 69px 30px;
+    max-width: 1250px;
+  }
+  .tl_header_div_1 {
+    gap: 70px;
+  }
+  .tl_header_div_1 img {
+    width: 150px;
+  }
+  .tl_header_div_1 ul li {
+    font-size: 15px;
+  }
+  .tl_input_1 input {
+    width: 250px;
+  }
+  .tl_input_1 ion-icon {
+    right: 2px;
+  }
+  .blog_section_div {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  .blog_section_div img {
+    width: 703px;
+  }
+}

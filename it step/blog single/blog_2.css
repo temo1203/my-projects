@@ -19,7 +19,7 @@
   font-size: 18px;
   line-height: 165.4%;
   color: #525c60;
-  width: 726px;
+  width: 100%;
 }
 .tl_div_lite h5 span {
   font-weight: 300;
@@ -90,7 +90,7 @@
   color: #274c5b;
 }
 .tl_div_lite_2 {
-  width: 90%;
+  width: 100%;
   padding: 64px 59px;
   background: #f1edea;
   border-radius: 30px;

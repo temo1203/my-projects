@@ -8,6 +8,6 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .img_lite {
-    width: 33vw;
+    height: 33vw;
   }
 }

@@ -6,6 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./test2.component.css'],
 })
 export class Test2Component {
+  goga: string = 'goga';
   names: any = [
     { name: 'temo', username: 'lortkipanidze' },
     { name: 'sandro', username: 'kvirikashvili' },

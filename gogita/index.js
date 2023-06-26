@@ -1,9 +1,4 @@
-function gogita() {
-  prompt("didi yle");
-  var name = "dwad";
-  if (name == "gogita") {
-    console.log("true");
-  } else {
-    console.log("false");
-  }
+let ar = ["lemuri", "sandro", "gogita"];
+for (let i = 0; i < ar.length; i++) {
+  console.log(ar[i]);
 }

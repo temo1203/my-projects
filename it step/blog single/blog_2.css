@@ -54,9 +54,6 @@
   margin-top: 80px;
   padding: 0px 200px;
 }
-.container_lite p:first-child {
-  width: 936px;
-}
 .container_lite h2 {
   font-style: normal;
   font-weight: 800;
@@ -80,7 +77,6 @@
 .container_lite p:nth-child(3) {
   margin-top: 24px;
   margin-bottom: 30px;
-  width: 721px;
 }
 .lite-para {
   margin-top: 24px;
@@ -94,7 +90,7 @@
   color: #274c5b;
 }
 .tl_div_lite_2 {
-  width: 814px;
+  width: 90%;
   padding: 64px 59px;
   background: #f1edea;
   border-radius: 30px;

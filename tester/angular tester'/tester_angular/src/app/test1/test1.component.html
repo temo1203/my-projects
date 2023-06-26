@@ -1,0 +1,6 @@
+<div [ngClass]="'main_div'">
+  <div *ngFor="let name of Users" [ngClass]="'div_lite'">
+    <h1>{{ name.name }}</h1>
+    <p>{{ name.username }}</p>
+  </div>
+</div>

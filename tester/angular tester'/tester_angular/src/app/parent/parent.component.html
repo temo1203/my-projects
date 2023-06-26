@@ -2,5 +2,5 @@
 <input id="ading" #addValue type="text" />
 <button (click)="addItem2(addValue.value)"></button>
 <ul>
-  <li *ngFor="let item of items">{{ item }}</li>
+  <li *ngFor="let item of items">{{ item | uppercase }}</li>
 </ul>

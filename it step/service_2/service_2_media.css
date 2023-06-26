@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1150px) {
+  .tl_lite_div_1,
+  .tl_lite_div_2 {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+  .tl_quality_pro {
+    flex-direction: column;
+  }
+  .tl_quality_pro {
+  }
+}
+@media only screen and (max-width: 850px) {
+  .lite_container {
+    padding: 0px 50px;
+  }
+}

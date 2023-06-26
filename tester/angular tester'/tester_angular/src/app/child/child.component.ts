@@ -12,7 +12,7 @@ export class ChildComponent {
   //   this.newItemEvent.emit(value);
   //   console.log(value);
   // }
-  @Output() newItemEvent = new EventEmitter<string>();
+  @Output() newItemEvent = new EventEmitter<any>();
   addNewItem(value: string) {
     this.newItemEvent.emit(value);
   }

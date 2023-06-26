@@ -89,12 +89,12 @@
   gap: 30px;
   margin-top: 59px;
 }
-.tl_quality_pro > .tl_quality:first-child {
+/* .tl_quality_pro > .tl_quality:first-child {
   width: 38%;
 }
 .tl_quality_pro > .tl_quality:nth-child(2) {
   width: 40.6%;
-}
+} */
 .tl_section_div_2 {
   background-image: url(./service_photos/Backgroundmixed.png);
   width: 100%;

@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1400px) {
+  .tl_section_div_1 {
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .tl_image_lite {
+    height: 38vw;
+  }
+  .tl_section_div_1 {
+    grid-template-columns: 1fr;
+  }
+  .tl_section_div_1 > div {
+    margin-top: 30px;
+  }
+}

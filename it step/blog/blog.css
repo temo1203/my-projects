@@ -1,6 +1,9 @@
 .img_lite {
   width: 100%;
 }
+.tl_burger_1 ion-icon {
+  display: none;
+}
 .blog_lite span {
   background: white;
   padding: 13px;

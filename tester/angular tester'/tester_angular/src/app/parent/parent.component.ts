@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnChanges, SimpleChanges } from '@angular/core';
 
 @Component({
   selector: 'app-parent',
@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class ParentComponent {
   currentItem = 'parent_to_child';
-  items = ['item1', 'item2', 'item3', 'item4'];
+  items = ['item 1', 'item 2', 'item 3', 'item 4'];
   addItem2(thing: string) {
-    this.items.push('from_parent', thing);
+    this.items.push(thing);
   }
   addItem(value: string) {
     this.items.push(value);

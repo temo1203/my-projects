@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1100px) {
+  .tl_team_div_1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 750px) {
+  .tl_team_div_1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .img_lite {
+    width: 33vw;
+  }
+}

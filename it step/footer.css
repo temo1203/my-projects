@@ -84,3 +84,12 @@ footer {
   color: #7eb693;
   transition: 0.3s linear;
 }
+.tl_footer_div > div:first-child {
+  text-align: end;
+  padding-right: 50px;
+  border-right: 1px solid #d5d5d5;
+}
+.tl_footer_div > div:nth-child(3) {
+  padding-left: 50px;
+  border-left: 1px solid #d5d5d5;
+}

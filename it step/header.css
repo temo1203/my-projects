@@ -79,3 +79,63 @@ header .container {
 
   color: #274c5b;
 }
+.tl_burger_1 ion-icon {
+  display: none;
+}
+.search_div_1 {
+  height: 36%;
+  width: 500px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  z-index: 100;
+  top: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transform: translateX(-600px);
+  transition: 0.5s ease-in-out;
+}
+.search_div_1 input[type="search"] {
+  border: 1px solid #274c5b;
+  width: 100%;
+  background: #fafafa;
+  height: 60px;
+  padding-left: 30px;
+  color: #274c5b;
+  transition: 0.3s ease-in;
+}
+.search_div_1 input[type="search"]:focus {
+  border-color: #7eb693;
+  transition: 0.3s ease-in;
+}
+.search_div_1 ul {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.search_div_1 ul a:hover {
+  color: #7eb693;
+  transition: 0.3s linear;
+}
+.search_div_1 li {
+  width: 130px;
+}
+.search_div_1 [name="close-outline"] {
+  width: 45px;
+  height: 45px;
+  color: #274c5b;
+  margin-top: 30px;
+  position: absolute;
+  right: 20px;
+  top: 73px;
+}
+.search_div_1 ul a {
+  font-size: 25px;
+  color: #274c5b;
+  display: flex;
+  align-items: center;
+  transition: 0.3s linear;
+  gap: 10px;
+}

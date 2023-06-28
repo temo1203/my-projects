@@ -5,9 +5,9 @@
 }
 @media only screen and (max-width: 750px) {
   .tl_team_div_1 {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
   .img_lite {
-    height: 33vw;
+    height: 50vw;
   }
 }

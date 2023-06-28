@@ -1,6 +1,13 @@
-<app-child (newItemEvent)="addItem($event)" [item]="currentItem"></app-child>
+<app-child
+  (newItemEvent)="addItem($event)"
+  [item]="currentItem"
+  [item_2]="currentItem_2"
+></app-child>
 <input id="ading" #addValue type="text" />
 <button (click)="addItem2(addValue.value)"></button>
 <ul>
   <li *ngFor="let item of items">{{ item | uppercase }}</li>
 </ul>
+<h1>{{ Item1 }}</h1>
+<h1>{{ lite1 }}</h1>
+<img [src]="img" alt="" />

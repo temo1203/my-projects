@@ -32,20 +32,6 @@
   .tl_input_1 ion-icon {
     right: 2px;
   }
-  .blog_section_div {
-    place-items: center;
-  }
-  .blog_section_div img {
-    width: 503;
-    width: 503px;
-    height: 400px;
-  }
-  .blog_lite div {
-    padding: 40px;
-    left: 0px;
-    width: 503px;
-    height: 250px;
-  }
   .tl_input_1 input {
     width: 200px;
   }

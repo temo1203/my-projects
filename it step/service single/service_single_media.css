@@ -6,7 +6,10 @@
 }
 @media only screen and (max-width: 950px) {
   .tl_image_lite {
-    height: 38vw;
+    height: 50vw;
+  }
+  .tl_section_div_1 img {
+    width: 100%;
   }
   .tl_section_div_1 {
     grid-template-columns: 1fr;

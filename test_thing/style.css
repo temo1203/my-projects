@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.al-reg {
+  display: flex;
+  justify-content: end;
+  gap: 24px;
+  padding-right: 42px;
+  height: 40px;
+  border-bottom: solid 1px #c4c4c4;
+}
+.al-reg-btn {
+  background-color: white;
+  border: none;
+  color: #c4c4c4;
+}
+.al-nav {
+  display: flex;
+  justify-content: space-between;
+  justify-content: baseline;
+  padding-top: 47px;
+  height: 154px;
+}
+.al-search-btn {
+  background-color: white;
+  border: none;
+  padding-bottom: 40px;
+}
+.al-icons {
+  display: flex;
+  justify-content: baseline;
+  padding-top: 35px;
+  gap: 32px;
+  padding-right: 49px;
+}
+.al-b {
+  border: none;
+  background-color: white;
+  font-family: "Montserrat";
+  font-size: 16px;
+}
+.al-search-btn {
+  padding-left: 49px;
+  padding-top: 20px;
+}
+.al-img-ks {
+  height: 628px;
+}
+.ag-sel-place {
+  display: grid;
+  gap: 24px;
+  display: grid;
+}
+.ag-last-name {
+  height: 45px;
+  width: 295px;
+  border: 1px grey solid;
+}
+.ag-first-name {
+  height: 45px;
+  width: 295px;
+  border: 1px grey solid;
+}
+.ag-address {
+  height: 45px;
+  width: 612px;
+  border: 1px grey solid;
+}
+
+.ag-country-selector {
+  height: 45px;
+  width: 612px;
+  border: 1px grey solid;
+}
+.ag-numbers {
+  width: 295px;
+  height: 45px;
+}
+.ag-idk-what {
+  width: 295px;
+  height: 45px;
+}
+.ag-phone-number {
+  width: 612px;
+  height: 45px;
+}
+.ag-body {
+  padding-left: 38px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+.ag-idk-meaning {
+  display: flex;
+  gap: 26px;
+}
+.ag-last-first-name {
+  display: flex;
+  gap: 26px;
+}
+.orderButton {
+  color: white;
+  font-size: 1rem;
+  width: 296px;
+  height: 45px;
+  background-color: #e2342d;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+}
+.ag-g-b-t-c {
+  border: none;
+  background: white;
+  height: 45px;
+  width: 131px;
+}
+.ag-btns {
+  display: flex;
+  justify-content: baseline;
+  gap: 185px;
+}
+.ag-hebi {
+  display: grid;
+  gap: 20px;
+}
+.ag-footer-left-side {
+  display: flex;
+  gap: 111px;
+}
+.ag-footer-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 154px;
+}
+.ag-footer {
+  padding-top: 70px;
+  padding-left: 97px;
+}
+.ag-footer {
+  gap: 211px;
+  display: flex;
+}
+.ag-footer-right-side {
+  display: grid;
+  width: 428px;
+  height: 218;
+  gap: 20px;
+}
+.al-body {
+  display: grid;
+  justify-content: center;
+}
+.ag-email {
+  width: 400px;
+  height: 50px;
+  border-bottom: solid #c4c4c4 1px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-size: 1rem;
+}
+.ag-h-at-end {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.ag-footer-left-side-info-second-half {
+  display: grid;
+  gap: 21px;
+}
+.ag-footer-left-side-info-half {
+  display: grid;
+  gap: 21px;
+}
+.ag-email-div {
+  display: flex;
+  justify-content: space-between;
+}
+.ag-negr0s {
+  display: grid;
+}
+.container {
+  display: none;
+}
+.ag-mac-resp {
+  display: none;
+}
+
+@media (max-width: 1280px) {
+  .ag-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .ag-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 700px) {
+}
+
+@media (max-width: 896px) {
+  .ag-al-nav-media {
+    display: flex;
+  }
+  .al-nav {
+    display: none;
+  }
+  .container {
+    display: flex;
+  }
+  .ag-mac-resp {
+    display: flex;
+  }
+}
+
+.al-nav button {
+  flex: 1 1 auto;
+  margin: 5px;
+}
+#menu-bar {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 150px;
+  height: 100%;
+  background-color: #f1f1f1;
+  transition: right 0.3s ease-in-out;
+}
+
+#menu-bar.open {
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ag-ul-side-bar {
+  display: grid;
+  gap: 48px;
+}
+.ag-screenshot-for-side-bar {
+  border: none;
+  width: 200px;
+  height: 200px;
+}
+#menu-btn {
+  border: none;
+}
+.ag-al-nav-media {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+.ag-a {
+  color: black;
+  font-size: 1.5rem;
+}

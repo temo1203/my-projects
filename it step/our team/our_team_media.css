@@ -2,6 +2,42 @@
   .tl_team_div_1 {
     grid-template-columns: repeat(2, 1fr);
   }
+  .tl_section_div_2 {
+    border-radius: 50px;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .tl_section_div_2 {
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 76px;
+    margin-top: 140px;
+    flex-direction: column;
+  }
+  .tl_section_div_2 div {
+    text-align: center;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .tl_section_div_2 h1 {
+    padding-top: 25px;
+    text-align: center;
+    line-height: 41px;
+    font-size: 34px;
+  }
+  .tl_section_div_2 input,
+  .tl_section_div_2 button {
+    height: 60px;
+  }
+  .tl_section_div_2 button {
+    padding-bottom: 20.5px;
+    padding-top: 21.5px;
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 750px) {
   .tl_team_div_1 {

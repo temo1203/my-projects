@@ -1,0 +1,17 @@
+<p [class.color]="bool">child works!</p>
+<h1 [style.color]="bool ? 'red' : 'blue'">hii</h1>
+<button (click)="btnClick()">Click me</button>
+<input #name (keyup.enter)="onKeyup(name.value)" type="text" />
+<ul>
+  <li *ngFor="let val of Values">
+    {{ val }}
+  </li>
+</ul>
+<ul>
+  <li *ngFor="let value of objArray">
+    {{ value | json }}
+    <button (click)="Delete(value)">Delete</button>
+    {{ value.name }}
+  </li>
+</ul>
+<button (click)="addNew()">Add new Data</button>

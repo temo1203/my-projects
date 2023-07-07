@@ -1,0 +1,118 @@
+<form (ngSubmit)="Submit()" [formGroup]="form">
+  <!-- fullname -->
+  <div class="form-group fullname">
+    <label>Full Name</label>
+    <input
+      (change)="lite()"
+      formControlName="fullName"
+      class="form-control"
+      placeholder="Full name"
+      type="text"
+    />
+    <div
+      *ngIf="FullName.touched && FullName.invalid"
+      class="alert alert-danger"
+    >
+      <div *ngIf="FullName.errors?.required">The fullName is required</div>
+      <div *ngIf="FullName.errors?.minlength">
+        The fullName must be at least 5 characters
+      </div>
+    </div>
+  </div>
+  <!-- email -->
+  <div class="form-group Email">
+    <label>Email</label>
+    <input
+      formControlName="email"
+      name="email"
+      class="form-control"
+      placeholder="Email"
+      type="text"
+    />
+    <div *ngIf="Email.touched && Email.invalid" class="alert alert-danger">
+      <div *ngIf="Email.errors?.required">The email is required</div>
+      <div *ngIf="Email.errors?.pattern">Type the correct email pattern</div>
+    </div>
+  </div>
+  <!-- ship main -->
+  <div formGroupName="contactDetails" class="form-main">
+    <!-- Address -->
+    <div class="form-group shippingAddress">
+      <label> address</label>
+      <textarea
+        formControlName="address"
+        class="form-control"
+        placeholder="Address"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <div
+        *ngIf="AddressFunc.touched && AddressFunc.invalid"
+        class="alert alert-danger"
+      >
+        <div *ngIf="AddressFunc.errors?.required">The address is required</div>
+      </div>
+    </div>
+    <!-- shipping Address -->
+    <div class="form-group shippingAddress">
+      <label> shipping address</label>
+      <textarea
+        formControlName="shippingAddress"
+        class="form-control"
+        placeholder="Address"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <div
+        *ngIf="ShippingAddress.touched && ShippingAddress.invalid"
+        class="alert alert-danger"
+      >
+        <div *ngIf="ShippingAddress.errors?.required">
+          The shippingAddress is required
+        </div>
+      </div>
+    </div>
+    <!-- contact no -->
+    <div class="form-group Email">
+      <label>Contact</label>
+      <input
+        formControlName="contactNo"
+        class="form-control"
+        placeholder="Contact"
+        type="text"
+      />
+      <div
+        *ngIf="Contact.touched && Contact.invalid"
+        class="alert alert-danger"
+      >
+        <div *ngIf="Contact.errors?.required">The contactNo is required</div>
+        <div *ngIf="Contact.errors?.pattern">
+          Type the correct contactNo pattern
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--! skills -->
+  <div class="form-group">
+    <label for="">Sills</label>
+    <input
+      #skill
+      (keyup.enter)="addSkills(skill.value)"
+      class="form-control"
+      type="text"
+    />
+    <ul class="list-group">
+      <li
+        class="list-group-item"
+        *ngFor="let skill of Skills.controls; let i = index"
+      >
+        {{ skill.value }}
+        <a (click)="remove(i)" href="#" class="btn btn-sm btn-danger">X</a>
+      </li>
+    </ul>
+  </div>
+  <!--? submit -->
+  <button [disabled]="form.invalid" type="submit" class="btn btn-primary">
+    Click me
+  </button>
+</form>

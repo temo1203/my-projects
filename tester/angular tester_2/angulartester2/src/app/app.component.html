@@ -1,0 +1,20 @@
+<!-- <app-child2></app-child2> -->
+<!-- <app-homework></app-homework>
+{{ userDetails.city | CtName }}
+<ul>
+  <li *ngFor="let value of posts">
+    {{ value.id }}
+    {{ value.name }}
+  </li>
+</ul> -->
+<app-homework2></app-homework2>
+<div>
+  <h1>Todo App Values</h1>
+  <ul class="ul_lite" *ngFor="let value of posts2">
+    <h1>{{ value.fullName | json }}</h1>
+    <h2>{{ value.email | json }}</h2>
+    <h2>{{ value.address | json }}</h2>
+    <button (click)="del(this)">DELETE</button>
+  </ul>
+</div>
+<!-- <app-form></app-form> -->

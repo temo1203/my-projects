@@ -1,0 +1,41 @@
+<button (click)="AddItem()">Add item</button>
+<div *ngIf="ArrayObj.length > 0; then True; else noData"></div>
+<ng-template #True>
+  <ul>
+    <li *ngFor="let value of ArrayObj">
+      {{ value.name }}
+      <button (click)="Delete(value)">Delete</button>
+    </li>
+  </ul>
+</ng-template>
+<ng-template #noData>
+  <p>There is no Data to Fetch</p>
+</ng-template>
+<!-- switch -->
+<div>
+  <button (click)="SwitchOne('step 1')">step 1</button>
+  <button (click)="SwitchOne('step 2')">step 2</button>
+  <button (click)="SwitchOne('step 3')">step 3</button>
+</div>
+<div [ngSwitch]="stepForm">
+  <div *ngSwitchCase="'step 1'">step 1 clicked</div>
+  <div *ngSwitchCase="'step 2'">step 2 clicked</div>
+  <div *ngSwitchCase="'step 3'">step 3 clicked</div>
+  <div *ngSwitchDefault>Value is not def yet</div>
+</div>
+<!-- ng class -->
+<h
+  [ngStyle]="{
+    color: bool ? 'blueviolet': 'blue',
+    textTransform: bool ? 'uppercase': 'lowercase',
+  }"
+  >H1 tag with ngStyle</h
+>
+<h1
+  [ngClass]="{
+    first: bool,
+    second: !bool
+  }"
+>
+  H1 tag with ngClass
+</h1>

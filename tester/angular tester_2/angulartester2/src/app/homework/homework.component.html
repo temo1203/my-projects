@@ -1,0 +1,13 @@
+<input #Month type="text" />
+<input #Tax type="text" />
+<button (click)="Receiver(Month.value, Tax.value)">Add stats</button>
+<ul class="UL_lite" *ngFor="let value of Info">
+  <li>{{ value.Month }}</li>
+  <li>{{ value.Tax | currency : "$" }}</li>
+  <button (click)="Delete(value)">Delete</button>
+</ul>
+<ul class="Lite">
+  <li *ngFor="let value of HeaderReceiver">
+    {{ value }}
+  </li>
+</ul>

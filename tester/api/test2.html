@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Index 2</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <h1>Index 2</h1>
+    <p id="inputValue"></p>
+
+    <script>
+      axios
+        .get("https://649c26020480757192378cd2.mockapi.io/UserName")
+        .then(function (response) {
+          var inputValue = response.data.UsersName;
+          console.log(inputValue);
+          document.getElementById("inputValue").textContent = inputValue;
+        })
+        .catch(function (error) {
+          console.error(error);
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Index 1</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <h1>Index 1</h1>
+    <input type="text" id="inputField" />
+    <button onclick="storeInput()">Submit</button>
+
+    <script>
+      function storeInput() {
+        var input = document.getElementById("inputField").value;
+        axios
+          .post("https://649c26020480757192378cd2.mockapi.io/UserName", input)
+          .then(function (response) {
+            console.log(response.data);
+          })
+          .catch(function (error) {
+            console.error(error);
+          });
+      }
+    </script>
+  </body>
+</html>
